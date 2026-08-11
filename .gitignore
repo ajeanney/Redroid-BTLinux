@@ -1,0 +1,34 @@
+# Persistent Android state (contains apps, credentials, bonds, and user data)
+/data/
+
+# Lifecycle state, generated smoke APK, HCI snoops, and diagnostics
+/.runtime/
+
+# Local build/download caches
+/.cache/
+
+# Machine-specific configuration overrides
+redroid.local.env
+*.local.env
+
+# Generated Android packages and signing material
+*.apk
+*.aab
+*.apks
+*.idsig
+*.keystore
+*.jks
+
+# Logs and process artifacts
+*.log
+*.pid
+*.pid.lock
+
+# IDE, editor, and operating-system metadata
+/.idea/
+/.vscode/
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~

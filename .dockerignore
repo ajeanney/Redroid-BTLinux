@@ -1,0 +1,28 @@
+# Version-control and editor metadata
+.git
+.gitignore
+.gitattributes
+.idea
+.vscode
+.DS_Store
+
+# Host runtime and persistent Android state
+data
+.runtime
+.cache
+tests
+
+# Local configuration and generated artifacts are not image inputs
+redroid.local.env
+*.local.env
+*.apk
+*.aab
+*.apks
+*.idsig
+*.keystore
+*.jks
+*.log
+*.pid
+
+# Documentation is not needed by the image build
+README.md
